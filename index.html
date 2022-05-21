@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorization</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="m-4">
+        <h3>INTEGER FACTORIZATION PROBLEM</h3>
+    </div>
+    <div class="table">
+        <div id="simpleDiv" class="list-group-item d-flex ">
+            <div class="d-flex w-75">
+                <h5 class="m-2 w-50">SIMPLE</h5>
+                <input type="number" id="simple" class="form-control number-lg-center">
+                <button id="simpleBtn" class="btn btn-primary">Submit</button>
+            </div>
+            <div id="simpleAns" class="p-4 fw-bolder">
+
+            </div>
+        </div>
+        <div id="fermatDiv" class="list-group-item d-flex ">
+            <div class="d-flex w-75">
+                <h5 class="m-2  w-50">FERMAT</h5>
+                <input type="number" id="fermat" class="form-control number-lg-center">
+                <button id="fermatBtn"  class="btn btn-primary">Submit</button>
+            </div>
+            <div id="fermatAns" class="p-4 fw-bolder">
+
+            </div>
+        </div>
+        <div id="p1Div" class="list-group-item d-flex ">
+            <div class="d-flex w-75">
+                <h5 class="m-2 w-50">POLLARD'S P-1</h5>
+
+                <input type="number" id="p1" class="form-control number-lg-center">
+                <button id="p1Btn" class="btn btn-primary">Submit</button>
+            </div>
+            <div id="p1Ans" class="p-4 fw-bolder">
+
+            </div>
+        </div>
+        <div id="proDiv" class="list-group-item d-flex ">
+            <div class="d-flex w-75">
+                <h5 class="m-2 w-50">POLLARD'S RHO</h5>
+                <input type="number" id="pro" class="form-control number-lg-center">
+                <button id="proBtn" class="btn btn-primary">Submit</button>
+            </div>
+            <div id="proAns" class="p-4 fw-bolder">
+
+            </div>
+        </div>
+        <div id="qsDiv" class="list-group-item d-flex ">
+            <div class="d-flex w-75">
+                <h5 class="m-2 w-50">QUADRATIC SIEVE</h5>
+                <input   id="qs" type="number" class="form-control number-lg-center">
+                <button id="qsBtn" class="btn btn-sm btn-primary">Submit</button>
+            </div>
+            <div id="qsAns" class="p-4 fw-bolder">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="application/javascript" src="jquery.min.js"></script>
+<script type="application/javascript" src="bootstrap.min.js"></script>
+<script type="application/javascript" src="script.js"></script>
+</body>
+</html>
